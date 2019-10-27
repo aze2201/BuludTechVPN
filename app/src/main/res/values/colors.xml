@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#383E4A</color>
+    <color name="colorPrimaryDark">#383E4A</color>
+
+    <color name="colorAccent">#00af83</color>
+    <color name="colorActionBarButton">#00af83</color>
+    <!-- random using -->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOffWhite">#fcfcfe</color>
+    <color name="colorTransparentOffWhile">#60fcfcfe</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparentDark">#80000000</color>
+    <color name="colorLightBlue">#337bae</color>
+    <color name="colorOffline">#9E9E9E</color>
+    <color name="colorConnecting">#EF6C00</color>
+    <color name="colorOnline">#8BB42E</color>
+    <color name="colorDivider">#14383E4A</color>
+    <color name="colorDialogBtn">#383E4A</color>
+    <color name="colorLoading">#cc383E4A</color>
+</resources>

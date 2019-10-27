@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="ring_width">2dp</dimen>
+    <dimen name="action_bar_indicator_radius">18dp</dimen>
+    <dimen name="action_bar_indicator_thickness">36dp</dimen>
+    <dimen name="action_bar_button_height">40dp</dimen>
+</resources>

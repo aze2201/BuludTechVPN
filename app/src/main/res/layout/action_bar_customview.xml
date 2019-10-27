@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <at.markushi.ui.CircleButton
+        android:id="@+id/actionbar_settings"
+        android:layout_width="@dimen/action_bar_button_height"
+        android:layout_height="@dimen/action_bar_button_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_settings_white_24dp"
+        app:cb_color="@color/colorActionBarButton"
+        app:cb_pressedRingWidth="@dimen/ring_width"
+        android:elevation="7dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewpager_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:stl_defaultTabTextColor="@color/colorWhite"
+            app:stl_defaultTabTextHorizontalPadding="18dp"
+            app:stl_dividerColor="@color/colorTransparent"
+            app:stl_dividerThickness="0dp"
+            app:stl_distributeEvenly="true"
+            app:stl_indicatorColor="@color/colorActionBarButton"
+            app:stl_indicatorCornerRadius="@dimen/action_bar_indicator_radius"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="@dimen/action_bar_indicator_thickness"
+            app:stl_underlineColor="@color/colorActionBarButton"
+            app:stl_underlineThickness="0dp"
+            android:elevation="7dp"/>
+    </LinearLayout>
+    <at.markushi.ui.CircleButton
+        android:id="@+id/actionbar_filters"
+        android:layout_width="@dimen/action_bar_button_height"
+        android:layout_height="@dimen/action_bar_button_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_search_white_24dp"
+        app:cb_color="@color/colorActionBarButton"
+        app:cb_pressedRingWidth="@dimen/ring_width"
+        android:elevation="7dp" />
+</RelativeLayout>

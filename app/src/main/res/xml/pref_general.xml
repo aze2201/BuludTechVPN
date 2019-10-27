@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_cat_general">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settings_general_list_start_page_entries"
+            android:entryValues="@array/settings_general_list_start_page_values"
+            android:key="settings_general_list_start_page"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_general_list_start_page_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="settings_general_open_using_third_party"
+            android:summary="@string/settings_general_open_third_party_sum"
+            android:title="@string/settings_general_open_third_party_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="settings_general_save_filter"
+            android:summary="@string/settings_general_save_filter_sum"
+            android:title="@string/settings_general_save_filter_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="settings_general_show_closing_confirm_dialog"
+            android:summary="@string/settings_general_closing_confirm_dialog_sum"
+            android:title="@string/settings_general_closing_confirm_dialog_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="settings_general_show_change_name_dialog"
+            android:summary="@string/settings_general_show_change_name_dialog_sum"
+            android:title="@string/settings_general_show_change_name_dialog_title" />
+        <ListPreference
+            android:defaultValue="60"
+            android:entries="@array/settings_general_list_force_reload_time_entries"
+            android:entryValues="@array/settings_general_list_force_reload_time_values"
+            android:key="settings_general_list_force_reload_time"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_general_list_force_reload_time_title" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/settings_general_list_item_direction_entries"
+            android:entryValues="@array/settings_general_list_item_direction_values"
+            android:key="settings_general_list_item_direction"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/settings_general_list_item_direction_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

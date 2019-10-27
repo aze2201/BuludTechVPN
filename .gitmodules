@@ -1,0 +1,6 @@
+[submodule "app/openvpn"]
+	path = app/openvpn
+	url = https://github.com/schwabe/openvpn.git
+[submodule "app/openssl"]
+	path = app/openssl
+	url = https://github.com/schwabe/platform_external_openssl.git

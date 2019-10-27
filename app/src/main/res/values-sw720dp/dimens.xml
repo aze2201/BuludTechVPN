@@ -1,0 +1,9 @@
+<resources>
+    <!-- list item -->
+    <dimen name="list_item_height">180dp</dimen>
+    <dimen name="padding_top_bottom_buttons">70dp</dimen>
+    <dimen name="padding_bottom_bottom_buttons">26dp</dimen>
+    <dimen name="list_item_bottom_width">440dp</dimen>
+    <dimen name="margin_fragments_left_right">100dp</dimen>
+    <dimen name="margin_fragments_top_bot">20dp</dimen>
+</resources>

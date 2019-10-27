@@ -1,0 +1,18 @@
+<resources>
+    <!-- General Button style -->
+    <style
+        name="ButtonStyle"
+        parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style
+        name="ButtonStyleDarkAccent"
+        parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>

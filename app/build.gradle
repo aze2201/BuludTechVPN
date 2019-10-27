@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'checkstyle'
+
+checkstyle {
+    showViolations true
+}
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+    maven { url 'https://maven.google.com' }
+}
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.0'
+    defaultConfig {
+        applicationId "tk.usagis2.BuludTechVPN"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 22
+        versionName '1.0.7'
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'ovpnlibs/assets']
+            jniLibs.srcDirs = ['ovpnlibs/jniLibs']
+            jni.srcDirs = []
+        }
+
+
+
+        debug {
+        }
+
+        release {
+        }
+    }
+
+    signingConfigs {
+        release
+    }
+
+    lintOptions {
+        enable 'BackButton', 'EasterEgg', 'StopShip', 'IconExpectedSize', 'GradleDynamicVersion', 'NewerVersionAvailable'
+        warning 'ImpliedQuantity', 'MissingQuantity'
+        disable 'MissingTranslation', 'UnsafeNativeCodeLocation'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "implementation"
+
+    productFlavors {
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support:design:25.4.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.android.support:recyclerview-v7:25.4.0'
+    compile 'com.android.support:support-v4:25.4.0'
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.1'
+    compile 'com.wang.avi:library:1.0.5'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.markushi:circlebutton:1.1'
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar'
+    compile 'com.android.support:gridlayout-v7:25.4.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.android.gms:play-services-ads:11.0.2'
+    compile 'uk.co.chrisjenx:calligraphy:2.2.0'
+}
+
+// ~/.gradle/gradle.properties
+if (project.hasProperty('keystoreFile') &&
+        project.hasProperty('keystorePassword') &&
+        project.hasProperty('keystoreAliasPassword')) {
+    android.signingConfigs.release.storeFile = file(keystoreFile)
+    android.signingConfigs.release.storePassword = keystorePassword
+    android.signingConfigs.release.keyPassword = keystoreAliasPassword
+    android.signingConfigs.release.keyAlias = keystoreAlias
+} else {
+    android.buildTypes.release.signingConfig = null
+}

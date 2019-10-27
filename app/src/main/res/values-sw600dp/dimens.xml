@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="action_bar_indicator_radius">25dp</dimen>
+    <dimen name="action_bar_indicator_thickness">50dp</dimen>
+    <dimen name="action_bar_button_height">56dp</dimen>
+
+    <!-- list item -->
+    <dimen name="list_item_height">160dp</dimen>
+    <dimen name="padding_top_bottom_buttons">60dp</dimen>
+    <dimen name="padding_bottom_bottom_buttons">20dp</dimen>
+    <dimen name="list_item_bottom_width">400dp</dimen>
+    <dimen name="list_item_bottom_btn_size">12sp</dimen>
+
+    <dimen name="margin_fragments_left_right">80dp</dimen>
+    <dimen name="margin_fragments_top_bot">20dp</dimen>
+    <dimen name="padding_list_view">1dp</dimen>
+</resources>

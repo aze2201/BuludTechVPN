@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:fragment="tk.usagis2.BuludTechVPN.Activities.Settings$GeneralPreferenceFragment"
+        android:title="@string/settings_general" />
+    <header
+        android:fragment="tk.usagis2.BuludTechVPN.Activities.Settings$VPNBootPreferenceFragment"
+        android:title="@string/settings_boot" />
+    <header
+        android:fragment="tk.usagis2.BuludTechVPN.Activities.Settings$VPNConnectionPreferenceFragment"
+        android:title="@string/settings_connection" />
+
+    <header
+        android:fragment="tk.usagis2.BuludTechVPN.Activities.Settings$AboutFragment"
+        android:title="@string/str_about_title" />
+</preference-headers>

@@ -1,0 +1,17 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <PreferenceCategory android:title="@string/settings_cat_start_up">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="restartvpnonboot"
+            android:summary="@string/on_boot_restart_summary"
+            android:title="@string/on_boot_restart"/>
+        <ListPreference
+            android:key="alwaysOnVpn"
+            android:title="@string/always_on_vpn"
+            tools:summary="" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

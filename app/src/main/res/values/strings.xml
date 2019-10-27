@@ -1,0 +1,720 @@
+<resources>
+    <string name="str_version">Version: 1.0.7</string>
+    <string name="str_ads_app_id">ca-app-pub-5111194386517420~4649049392</string>
+    <string name="str_ads_unit_id">ca-app-pub-5111194386517420/9079248995</string>
+    <string name="app_name">BuludTech VPN</string>
+    <string name="str_error">Error</string>
+    <string name="str_action_bar_not_found">Your device doesn\'t support actionbar</string>
+    <string name="str_ok">OK</string>
+    <string name="str_action_bar_all_servers">Servers</string>
+    <string name="str_action_bar_favorites">Favorites</string>
+    <string name="str_empty" />
+    <string name="str_retry">Retry</string>
+    <string name="str_author_email">tupvct@gmail.com</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_err_http_error">Can\'t get VPN list</string>
+    <string name="str_err_parsing_error">Can\'t parse VPN list</string>
+    <string name="str_err_no_server_found">No server found.</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_no">No</string>
+    <string name="str_err_parsing_contact_us">Look like the program has problems with parsing data from VPNGate server. Please contact us to report the error!</string>
+    <string name="str_err_title">Unexpected error</string>
+    <string name="str_button_contact">Contact</string>
+    <string name="str_mail_subject">Error report</string>
+    <string name="str_mail_comment">"\nPlease tell us more about the problem: "</string>
+    <string name="str_chooser_tittle">Send email…</string>
+    <string name="str_activity_settings">Settings</string>
+    <string name="str_spinner_title">Choose…</string>
+    <string name="str_sort_radio_descending">Descending</string>
+    <string name="str_sort_radio_ascending">Ascending</string>
+    <string name="str_filter_button_text">Filter</string>
+    <string name="str_reset_button_text">Reset</string>
+    <string-array name="str_filter_array">
+        <item>Country</item>
+        <item>Host name</item>
+        <item>Ip</item>
+    </string-array>
+    <string-array name="str_sort_array">
+        <item>Default</item>
+        <item>Speed</item>
+        <item>Up time</item>
+        <item>Total traffic</item>
+        <item>Number of sessions</item>
+        <item>Country</item>
+        <item>Host name</item>
+        <item>Ip</item>
+    </string-array>
+
+    <!-- String frag array -->
+    <string-array name="str_array_frags">
+        <item>KR</item>
+        <item>CN</item>
+        <item>TW</item>
+        <item>US</item>
+        <item>JP</item>
+        <item>MY</item>
+        <item>IR</item>
+        <item>TH</item>
+        <item>ID</item>
+        <item>HK</item>
+        <item>FR</item>
+        <item>VN</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>IN</item>
+        <item>SA</item>
+        <item>CA</item>
+        <item>AF</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BR</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CV</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CG</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>CI</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>KP</item>
+        <item>DK</item>
+        <item>CD</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GR</item>
+        <item>GD</item>
+        <item>GT</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>JM</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MG</item>
+        <item>MV</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MW</item>
+        <item>MR</item>
+        <item>ML</item>
+        <item>MU</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>ME</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>QA</item>
+        <item>MD</item>
+        <item>RO</item>
+        <item>RW</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SN</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>SS</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>SY</item>
+        <item>TJ</item>
+        <item>MK</item>
+        <item>TL</item>
+        <item>TG</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TV</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>TZ</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VE</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+    <array name="int_array_frags">
+        <item>@mipmap/southkorea</item>
+        <item>@mipmap/china</item>
+        <item>@mipmap/taiwan</item>
+        <item>@mipmap/unitedstatesofamerica</item>
+        <item>@mipmap/japan</item>
+        <item>@mipmap/malaysia</item>
+        <item>@mipmap/iran</item>
+        <item>@mipmap/thailand</item>
+        <item>@mipmap/indonezia</item>
+        <item>@mipmap/hongkong</item>
+        <item>@mipmap/france</item>
+        <item>@mipmap/vietnam</item>
+        <item>@mipmap/russianfederation</item>
+        <item>@mipmap/singapore</item>
+        <item>@mipmap/india</item>
+        <item>@mipmap/saudiarabia</item>
+        <item>@mipmap/canada</item>
+        <item>@mipmap/afghanistan</item>
+        <item>@mipmap/albania</item>
+        <item>@mipmap/algeria</item>
+        <item>@mipmap/andorra</item>
+        <item>@mipmap/angola</item>
+        <item>@mipmap/antiguabarbuda</item>
+        <item>@mipmap/argentina</item>
+        <item>@mipmap/armenia</item>
+        <item>@mipmap/australia</item>
+        <item>@mipmap/austria</item>
+        <item>@mipmap/azerbaijan</item>
+        <item>@mipmap/bahamas</item>
+        <item>@mipmap/bahrain</item>
+        <item>@mipmap/bangladesh</item>
+        <item>@mipmap/barbados</item>
+        <item>@mipmap/belarus</item>
+        <item>@mipmap/belgium</item>
+        <item>@mipmap/belize</item>
+        <item>@mipmap/benin</item>
+        <item>@mipmap/bhutan</item>
+        <item>@mipmap/bolivia</item>
+        <item>@mipmap/bosniaherzegovina</item>
+        <item>@mipmap/botswana</item>
+        <item>@mipmap/brazil</item>
+        <item>@mipmap/brunei</item>
+        <item>@mipmap/bulgaria</item>
+        <item>@mipmap/burkinafaso</item>
+        <item>@mipmap/burundi</item>
+        <item>@mipmap/cambodja</item>
+        <item>@mipmap/cameroon</item>
+        <item>@mipmap/capeverde</item>
+        <item>@mipmap/centralafricanrepublic</item>
+        <item>@mipmap/chad</item>
+        <item>@mipmap/chile</item>
+        <item>@mipmap/colombia</item>
+        <item>@mipmap/comoros</item>
+        <item>@mipmap/congobrazzaville</item>
+        <item>@mipmap/cookislands</item>
+        <item>@mipmap/costarica</item>
+        <item>@mipmap/cotedivoire</item>
+        <item>@mipmap/croatia</item>
+        <item>@mipmap/cuba</item>
+        <item>@mipmap/cyprus</item>
+        <item>@mipmap/czechrepublic</item>
+        <item>@mipmap/northkorea</item>
+        <item>@mipmap/denmark</item>
+        <item>@mipmap/congo</item>
+        <item>@mipmap/djibouti</item>
+        <item>@mipmap/dominica</item>
+        <item>@mipmap/dominicanrepublic</item>
+        <item>@mipmap/ecuador</item>
+        <item>@mipmap/egypt</item>
+        <item>@mipmap/elsalvador</item>
+        <item>@mipmap/equatorialguinea</item>
+        <item>@mipmap/eritrea</item>
+        <item>@mipmap/estonia</item>
+        <item>@mipmap/ethiopia</item>
+        <item>@mipmap/fiji</item>
+        <item>@mipmap/finland</item>
+        <item>@mipmap/gabon</item>
+        <item>@mipmap/gambia</item>
+        <item>@mipmap/georgia</item>
+        <item>@mipmap/germany</item>
+        <item>@mipmap/ghana</item>
+        <item>@mipmap/greece</item>
+        <item>@mipmap/grenada</item>
+        <item>@mipmap/guatemala</item>
+        <item>@mipmap/guinea</item>
+        <item>@mipmap/guineabissau</item>
+        <item>@mipmap/guyana</item>
+        <item>@mipmap/haiti</item>
+        <item>@mipmap/honduras</item>
+        <item>@mipmap/hungary</item>
+        <item>@mipmap/iceland</item>
+        <item>@mipmap/iraq</item>
+        <item>@mipmap/ireland</item>
+        <item>@mipmap/israel</item>
+        <item>@mipmap/italy</item>
+        <item>@mipmap/jamaica</item>
+        <item>@mipmap/jordan</item>
+        <item>@mipmap/kazakhstan</item>
+        <item>@mipmap/kenya</item>
+        <item>@mipmap/kiribati</item>
+        <item>@mipmap/kuwait</item>
+        <item>@mipmap/kyrgyzstan</item>
+        <item>@mipmap/laos</item>
+        <item>@mipmap/latvia</item>
+        <item>@mipmap/lebanon</item>
+        <item>@mipmap/lesotho</item>
+        <item>@mipmap/liberia</item>
+        <item>@mipmap/libya</item>
+        <item>@mipmap/lithuania</item>
+        <item>@mipmap/luxembourg</item>
+        <item>@mipmap/madagascar</item>
+        <item>@mipmap/maldives</item>
+        <item>@mipmap/malta</item>
+        <item>@mipmap/marshallislands</item>
+        <item>@mipmap/malawi</item>
+        <item>@mipmap/mauritania</item>
+        <item>@mipmap/mali</item>
+        <item>@mipmap/mauritius</item>
+        <item>@mipmap/mexico</item>
+        <item>@mipmap/micronesia</item>
+        <item>@mipmap/monaco</item>
+        <item>@mipmap/mongolia</item>
+        <item>@mipmap/montenegro</item>
+        <item>@mipmap/morocco</item>
+        <item>@mipmap/mozambique</item>
+        <item>@mipmap/myanmar</item>
+        <item>@mipmap/namibia</item>
+        <item>@mipmap/nauru</item>
+        <item>@mipmap/nepal</item>
+        <item>@mipmap/netherlands</item>
+        <item>@mipmap/newzealand</item>
+        <item>@mipmap/nicaragua</item>
+        <item>@mipmap/niger</item>
+        <item>@mipmap/nigeria</item>
+        <item>@mipmap/niue</item>
+        <item>@mipmap/norway</item>
+        <item>@mipmap/oman</item>
+        <item>@mipmap/pakistan</item>
+        <item>@mipmap/palau</item>
+        <item>@mipmap/panama</item>
+        <item>@mipmap/papuanewguinea</item>
+        <item>@mipmap/paraguay</item>
+        <item>@mipmap/peru</item>
+        <item>@mipmap/philippines</item>
+        <item>@mipmap/poland</item>
+        <item>@mipmap/portugal</item>
+        <item>@mipmap/qatar</item>
+        <item>@mipmap/moldova</item>
+        <item>@mipmap/romania</item>
+        <item>@mipmap/rwanda</item>
+        <item>@mipmap/stkittsnevis</item>
+        <item>@mipmap/saintlucia</item>
+        <item>@mipmap/stvincentthegrenadines</item>
+        <item>@mipmap/samoa</item>
+        <item>@mipmap/sanmarino</item>
+        <item>@mipmap/saotomeprincipe</item>
+        <item>@mipmap/senegal</item>
+        <item>@mipmap/serbia</item>
+        <item>@mipmap/seychelles</item>
+        <item>@mipmap/sierraleone</item>
+        <item>@mipmap/slovakia</item>
+        <item>@mipmap/slovenia</item>
+        <item>@mipmap/solomonislands</item>
+        <item>@mipmap/somalia</item>
+        <item>@mipmap/southafrica</item>
+        <item>@mipmap/southernsudan</item>
+        <item>@mipmap/spain</item>
+        <item>@mipmap/srilanka</item>
+        <item>@mipmap/sudan</item>
+        <item>@mipmap/suriname</item>
+        <item>@mipmap/swaziland</item>
+        <item>@mipmap/sweden</item>
+        <item>@mipmap/syria</item>
+        <item>@mipmap/tajikistan</item>
+        <item>@mipmap/macedonia</item>
+        <item>@mipmap/timorleste</item>
+        <item>@mipmap/togo</item>
+        <item>@mipmap/tonga</item>
+        <item>@mipmap/trinidadtobago</item>
+        <item>@mipmap/tunisia</item>
+        <item>@mipmap/turkey</item>
+        <item>@mipmap/turkmenistan</item>
+        <item>@mipmap/tuvalu</item>
+        <item>@mipmap/uganda</item>
+        <item>@mipmap/ukraine</item>
+        <item>@mipmap/unitedarabemirates</item>
+        <item>@mipmap/unitedkingdom</item>
+        <item>@mipmap/tanzania</item>
+        <item>@mipmap/uruguay</item>
+        <item>@mipmap/uzbekistan</item>
+        <item>@mipmap/vanutau</item>
+        <item>@mipmap/venezuela</item>
+        <item>@mipmap/yemen</item>
+        <item>@mipmap/zambia</item>
+        <item>@mipmap/zimbabwe</item>
+    </array>
+
+    <string name="str_btn_connect">Connect</string>
+    <string name="str_btn_open_with">Open with</string>
+    <string name="str_btn_save">Save</string>
+    <string name="str_btn_delete">Remove</string>
+    <string name="str_filter_input_hint">Enter filter string here…</string>
+    <string name="str_ask_delete">Do you want to delete this VPN?</string>
+    <string name="str_info_added">VPN was added!</string>
+    <string name="str_info_updated">VPN was updated!</string>
+    <string name="str_info_deleted">VPN was deleted!</string>
+    <string name="str_no_per">No permission allowed!</string>
+    <string name="str_ask_update">VPN was added! Update new status?</string>
+
+    <!-- Strings related to Settings -->
+    <string name="settings_general_open_third_party_sum">Enable if you want to use other app to open selected VPN</string>
+    <string name="settings_general_open_third_party_title">Open VPN by third-party app</string>
+
+    <string name="settings_general_save_filter_sum">Enable if you want to keep filter data for next launches</string>
+    <string name="settings_general_save_filter_title">Retain filter data</string>
+
+    <string name="settings_general_closing_confirm_dialog_sum">Enable if you want to have a confirmation when closing VPN</string>
+    <string name="settings_general_closing_confirm_dialog_title">Show close confirmation</string>
+
+    <string name="settings_general_show_change_name_dialog_sum">Enable if you want to have a dialog to change VPN name when adding it</string>
+    <string name="settings_general_show_change_name_dialog_title">Show dialog to change name</string>
+
+    <string name="settings_general_list_item_direction_title">List item sliding direction</string>
+    <string-array name="settings_general_list_item_direction_entries">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="settings_general_list_item_direction_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="settings_general_list_start_page_title">Start Page</string>
+    <string-array name="settings_general_list_start_page_entries">
+        <item>VPNGate VPNs</item>
+        <item>Favorite VPNs</item>
+    </string-array>
+    <string-array name="settings_general_list_start_page_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="settings_general_list_force_reload_time_title">Reload data if the app relaunches</string>
+    <string-array name="settings_general_list_force_reload_time_entries">
+        <item>After 5 minutes</item>
+        <item>After 15 minutes</item>
+        <item>After 30 minutes</item>
+        <item>After 1 hours</item>
+        <item>After 2 hours</item>
+        <item>After 5 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="settings_general_list_force_reload_time_values">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="str_settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_connection">Connection</string>
+    <string name="settings_boot">Start-up</string>
+    <string name="always_on_vpn">VPN used on boot and for Always-On</string>
+    <string name="on_boot_restart_summary">OpenVPN will connect the specified VPN if it was active on system boot.</string>
+    <string name="on_boot_restart">Connect on boot</string>
+    <string name="use_system_proxy">Use system proxy</string>
+    <string name="use_system_proxy_summary">Use the system wide configuration for HTTP/HTTPS proxies to connect.</string>
+    <string name="net_change_summary">Turning this option on will force a reconnect if the network state is changed (e.g. WiFi to/from mobile)</string>
+    <string name="net_change">Reconnect on network change</string>
+    <string name="settings_cat_start_up">Start on Boot</string>
+    <string name="settings_cat_proxy">Proxy</string>
+    <string name="settings_cat_vpn_connection">VPN Connection</string>
+    <string name="settings_cat_general">Basic Behaviors</string>
+    <string name="import_config">Import</string>
+
+    <string name="ads_back_banner">BuludTech VPN</string>
+    <string name="str_vpn_status_disconnected">Disconnected</string>
+    <string name="str_vpn_status_disconnecting">Disconnecting</string>
+    <string name="str_vpn_status_paused">Paused</string>
+    <string name="str_vpn_status_preparing">Preparing connection</string>
+    <string name="str_update_vpn_title">Update old VPN?</string>
+    <string name="str_update_vpn_msg">A same VPN has been found.\n Update it?</string>
+    <string name="str_add_as_new">Add New</string>
+    <string name="str_update">Update</string>
+    <string name="str_add_vpn_name">Enter VPN Name</string>
+
+    <string name="context_connect">Connect by internal app</string>
+    <string name="context_connect_3rd">Connect by 3rd party app</string>
+    <string name="context_save">Add to favorites</string>
+    <string name="context_share">Share VPN</string>
+    <string name="context_sdcard">Save to SD-Card</string>
+    <string name="context_delete">Delete</string>
+    <string name="context_edit">Edit VPN Name</string>
+
+    <string name="filter_app_spinner_hint">Choose connect type…</string>
+    <string name="filter_app_connect_type">Connect Type</string>
+    <string name="package_name">tk.usagis2.ez_vpngate</string>
+    <string-array name="filter_app_spinner_entries">
+        <item>All Apps Except Selected</item>
+        <item>Selected Apps Only</item>
+    </string-array>
+
+    <!-- OLD APP STRING - need to refactor later -->
+    <string name="app">BuludTech VPN</string>
+    <string name="auth_username">Username</string>
+    <string name="no_keystore_cert_selected">You must select a User certificate</string>
+    <string name="no_error_found">No error found</string>
+    <string name="config_error_found">Error in Configuration</string>
+    <string name="ipv4_format_error">Error parsing the IPv4 address</string>
+    <string name="custom_route_format_error">Error parsing the custom routes</string>
+    <string name="vpn_launch_title">Connect to VPN</string>
+    <string name="shortcut_profile_notfound">Profile specified in shortcut not found</string>
+    <string name="route_rejected">Route rejected by Android</string>
+    <string name="cancel_connection">Disconnect</string>
+    <string name="title_cancel">Cancel Confirmation</string>
+    <string name="cancel_connection_query">Disconnect the connected VPN?</string>
+    <string name="tun_error_helpful">On some custom ICS images the permission on /dev/tun might be wrong, or the tun module might be missing completely. For CM9 images try the fix ownership option under general settings</string>
+    <string name="tun_open_error">Failed to open the tun interface</string>
+    <string name="error">"Error: "</string>
+    <string name="last_openvpn_tun_config">Opening tun interface:</string>
+    <string name="local_ip_info">Local IPv4: %1$s/%2$d IPv6: %3$s MTU: %4$d</string>
+    <string name="dns_server_info">DNS Server: %1$s, Domain: %2$s</string>
+    <string name="routes_info_incl">Routes: %1$s %2$s</string>
+    <string name="routes_info_excl">Routes excluded: %1$s %2$s</string>
+    <string name="routes_debug">VpnService routes installed: %1$s %2$s</string>
+    <string name="ip_not_cidr">Got interface information %1$s and %2$s, assuming second address is peer address of remote. Using /32 netmask for local IP. Mode given by OpenVPN is \"%3$s\".</string>
+    <string name="route_not_cidr">Cannot make sense of %1$s and %2$s as IP route with CIDR netmask, using /32 as netmask.</string>
+    <string name="route_not_netip">Corrected route %1$s/%2$s to %3$s/%2$s</string>
+    <string name="keychain_access">Cannot access the Android Keychain Certificates. This can be caused by a firmware upgrade or by restoring a backup of the app/app settings. Please edit the VPN and reselect the certificate under basic settings to recreate the permission to access the certificate.</string>
+    <string name="no_vpn_support_image">Your image does not support the VPNService API, sorry :(</string>
+    <string name="opentun_no_ipaddr">Refusing to open tun device without IP information</string>
+    <string name="error_reading_config_file">Error reading config file</string>
+    <string name="pkcs12_file_encryption_key">PKCS12 File Encryption Key</string>
+    <string name="private_key_password">Private Key Password</string>
+    <string name="password">Password</string>
+    <string name="owner_fix_summary">Tries to set the owner of /dev/tun to system. Some CM9 images need this to make the VPNService API work. Requires root.</string>
+    <string name="owner_fix">Fix ownership of /dev/tun</string>
+    <string name="building_configration">Building configuration…</string>
+    <string name="netstatus">Network Status: %s</string>
+    <string name="keychain_nocacert">No CA Certificate returned while reading from Android keystore. Authentication will probably fail.</string>
+    <string name="mobile_info">%10$s %9$s running on %3$s %1$s (%2$s), Android %6$s (%7$s) API %4$d, ABI %5$s, (%8$s)</string>
+    <string name="error_rsa_sign">Error signing with Android keystore key %1$s: %2$s</string>
+    <string name="warn_no_dns">No DNS servers being used. Name resolution may not work. Consider setting custom DNS Servers. Please also note that Android will keep using your proxy settings specified for your mobile/Wi-Fi connection when no DNS servers are set.</string>
+    <string name="dns_add_error">Could not add DNS Server \"%1$s\", rejected by the system: %2$s</string>
+    <string name="ip_add_error">Could not configure IP Address \"%1$s\", rejected by the system: %2$s</string>
+    <string name="setting_loadtun_summary">Try to load the tun.ko kernel module before trying to connect. Needs rooted devices.</string>
+    <string name="setting_loadtun">Load tun module</string>
+    <string name="getproxy_error">Error getting proxy settings: %s</string>
+    <string name="using_proxy">Using proxy %1$s %2$d</string>
+    <string name="minidump_generated">OpenVPN crashed unexpectedly. Please consider using the send Minidump option in the main menu</string>
+    <string name="notifcation_title">BuludTech VPN - %s</string>
+    <string name="session_ipv4string">%1$s - %2$s</string>
+    <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server reply</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_get_config">Getting client configuration</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnect</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_exiting">Exiting</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Connecting (TCP)</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_nonetwork">Waiting for usable network</string>
+    <string name="statusline_bytecount">↓%2$s %1$s - ↑%4$s %3$s</string>
+    <string name="notifcation_title_notconnect">Not connected</string>
+    <string name="jelly_keystore_alphanumeric_bug">Some versions of Android 4.1 have problems if the name of the keystore certificate contains non alphanumeric characters (like spaces, underscores or dashes). Try to reimport the certificate without special characters</string>
+    <string name="built_by">built by %s</string>
+    <string name="debug_build">debug build</string>
+    <string name="official_build">official build</string>
+    <string name="prompt">%1$s attempts to control %2$s</string>
+    <string name="remote_warning">By proceeding, you are giving the application permission to completely control OpenVPN for Android and to intercept all network traffic.<b>Do NOT accept unless you trust the application.</b> Otherwise, you run the risk of having your data compromised by malicious software."</string>
+    <string name="remote_trust">I trust this application.</string>
+    <string name="screenoff_summary">"Pause VPN when screen is off and less than 64 kB transferred data in 60s.</string>
+    <string name="screenoff_title">Pause VPN connection after screen off</string>
+    <string name="screenoff_pause">Pausing connection in screen off state: less than %1$s in %2$ss</string>
+    <string name="screen_nopersistenttun">Warning: Persistent tun not enabled for this VPN. Traffic will use the normal Internet connection when the screen is off.</string>
+    <string name="save_password">Save Password</string>
+    <string name="pauseVPN">Pause VPN</string>
+    <string name="resumevpn">Resume VPN</string>
+    <string name="state_userpause">VPN pause requested by user</string>
+    <string name="state_screenoff">VPN paused - screen off</string>
+    <string name="device_specific">Device specifics Hacks</string>
+    <string name="cannotparsecert">Cannot display certificate information</string>
+    <string name="permission_icon_app">Icon of app trying to use OpenVPN for Android</string>
+    <string name="show_password">Show password</string>
+    <string name="keyChainAccessError">KeyChain Access error: %s</string>
+    <string name="unhandled_exception">Unhandled exception: %1$s\n\n%2$s</string>
+    <string name="unhandled_exception_context">%3$s: %1$s\n\n%2$s</string>
+    <string name="ip_looks_like_subnet">Vpn topology \"%3$s\" specified but ifconfig %1$s %2$s looks more like an IP address with a network mask. Assuming \"subnet\" topology.</string>
+    <string name="allowed_vpn_apps_info">Allowed VPN apps: %1$s</string>
+    <string name="disallowed_vpn_apps_info">Disallowed VPN apps: %1$s</string>
+    <string name="app_no_longer_exists">Package %s is no longer installed, removing it from app allow/disallow list</string>
+    <string name="vpn_filter_app_title">Connect to</string>
+    <string name="vpn_allow_vpn_radio">Exclude BuludTech VPN (recommended)</string>
+    <string name="remote_no_server_selected">You need to define and enable at least one remote server.</string>
+    <string name="ignore_multicast_route">Ignoring multicast route: %s</string>
+    <string name="service_restarted">Restarting OpenVPN Service (App crashed probably crashed or killed for memory pressure)</string>
+    <string name="no_allowed_app">No allowed app added. Adding ourselves (%s) to have at least one app in the allowed app list to not allow all apps</string>
+    <string name="abi_mismatch">Preferred native ABI precedence of this device (%1$s) and ABI reported by native libraries (%2$s) mismatch</string>
+    <string name="months_left">%d months left</string>
+    <string name="days_left">%d days left</string>
+    <string name="hours_left">%d hours left</string>
+    <string name="permission_revoked">VPN permission revoked by OS (e.g. other VPN program started), stopping VPN</string>
+    <string name="pw_request_dialog_title">Need %1$s</string>
+    <string name="pw_request_dialog_prompt">Please enter the password for profile %1$s</string>
+    <string name="missing_tlsauth">tls-auth file is missing</string>
+    <string name="missing_certificates">Missing user certificate or user certifcate key file</string>
+    <string name="missing_ca_certificate">Missing CA certificate</string>
+    <string name="reread_log">Reread (%d) log items from log cache file</string>
+    <string name="novpn_selected">No VPN selected.</string>
+    <string name="qs_connect">Connect to %s</string>
+    <string name="qs_disconnect">Disconnect %s</string>
+    <string name="state_waitconnectretry">Waiting %ss seconds between connection attempt</string>
+    <!-- ================================ -->
+    <string name="str_about_title">About</string>
+    <string name="str_author">Author</string>
+    <string name="str_author_text">My name is Fariz. I\'ve graduated in 2011 and currently working in Germany/Munich. Thanks to Tu for share open source licensed source code.</string>
+    <string name="str_ez_vpn_gate">BuludTech VPN</string>
+    <string name="str_about_app">BuludTech VPN is very cheap application. We aim to everyone get and use it without any ads.</string>
+    <string name="str_dev_info">Development Info</string>
+    <string name="str_dev_info_details">BuludTech VPN is developed based on ICS-OpenVPN (schwabe), a full featured VPN App for Android. You can find further information at:</string>
+    <string name="str_donation">Privacy</string>
+    <string name="str_donation_details">BuludTechVPN application not save any information about destination address. We use public relay servers which is keep only Date and time,ID, IP address and hostname of destination VPN Server,Type of action (connect or disconnect),Raw IP address and hostname of the source VPN client computer,Type of VPN protocols (SSL-VPN, L2TP, OpenVPN or SSTP),VPN Client software-name, version and id (If available),Number of packets and bytes during a VPN connection, and debug information of communication errors\n\nNo other information will be transmitted to us nor be recorded on our logging server. </string>
+    <string name="str_link">&#160; - BuludTech VPN\n&#160;&#160;&#160;    https://github.com/aze2201/BuludTechVPN\n&#160; - ICS-OpenVPN\n&#160;&#160;&#160;    https://github.com/schwabe/ics-openvpn</string>
+    <string name="str_share_via">Share via</string>
+    <string name="str_app_not_ready">App is not ready to run, please wait!</string>
+    <string name="str_vpn_already_started">These is a VPN which has already been started.</string>
+    <string name="str_no_vpn_running">There is no VPN running.</string>
+    <string name="str_filter_by">Filter by</string>
+    <string name="str_sort_by">Sort by</string>
+    <string name="str_cloak_sum">If you can\'t fetch VPNGate servers because ISP blocked VPNGate, try to enable this option!\nWarning: This could make loading slower!</string>
+    <string name="str_cloak_title">Cloak VPNGate URL</string>
+    <string name="management_socket_closed">Connection to OpenVPN closed (%s)</string>
+
+    <!-- NEW SPEED -->
+    <string name="bits_per_second">%.0f B/s</string>
+    <string name="kbits_per_second">%.1f KB/s</string>
+    <string name="mbits_per_second">%.1f MB/s</string>
+    <string name="gbits_per_second">%.1f GB/s</string>
+    <string name="tbits_per_second">%.1f TB/s</string>
+
+    <string name="volume_byte">%.0f B</string>
+    <string name="volume_kbyte">%.1f kB</string>
+    <string name="volume_mbyte">%.1f MB</string>
+    <string name="volume_gbyte">%.1f GB</string>
+    <string name="volume_tbyte">%.1f TB</string>
+    <!-- NEW Strings -->
+    <string name="channel_name_background">Connection statistics</string>
+    <string name="channel_description_background">Ongoing statistics of the established OpenVPN connection</string>
+    <string name="channel_name_status">Connection status change</string>
+    <string name="channel_description_status">Status changes of the  OpenVPN connection (Connecting, authenticating,…)</string>
+
+    <string name="nought_alwayson_warning"><![CDATA[If you did not get a VPN confirmation dialog, you have \"Always on VPN\" enabled for another app. In that case only that app is allowed to connect to a VPN. Check under Settings-> Networks more .. -> VPNS]]></string>
+
+    <string name="no_ca_cert_selected">You must select a CA certificate</string>
+    <string name="deprecated_tls_remote">Config uses option tls-remote that was deprecated in 2.3 and finally removed in 2.4</string>
+    <string name="str_ask_mode">No app was selected in Selected App Mode. This will connect all your apps to the VPN.\nContinue?</string>
+
+    <string name="str_error_no_ext">No external storage is available</string>
+    <string name="str_save_sd_done">File was saved to Download folder</string>
+    <string name="str_error_rnd">Something wrong happened!</string>
+    <string name="str_error_per">Permission denied!</string>
+    <string name="str_error_folder_creation_failed">Failed when creating folder!</string>
+    <string name="str_open_dir">Folder</string>
+</resources>
