@@ -10,7 +10,7 @@
     <string name="str_action_bar_favorites">Favorites</string>
     <string name="str_empty" />
     <string name="str_retry">Retry</string>
-    <string name="str_author_email">tupvct@gmail.com</string>
+    <string name="str_author_email">aze2201@gmail.com</string>
     <string name="str_yes">Yes</string>
     <string name="str_err_http_error">Can\'t get VPN list</string>
     <string name="str_err_parsing_error">Can\'t parse VPN list</string>
@@ -597,7 +597,7 @@
     <string name="setting_loadtun">Load tun module</string>
     <string name="getproxy_error">Error getting proxy settings: %s</string>
     <string name="using_proxy">Using proxy %1$s %2$d</string>
-    <string name="minidump_generated">OpenVPN crashed unexpectedly. Please consider using the send Minidump option in the main menu</string>
+    <string name="minidump_generated">VPN crashed unexpectedly. Please consider using the send Minidump option in the main menu</string>
     <string name="notifcation_title">BuludTech VPN - %s</string>
     <string name="session_ipv4string">%1$s - %2$s</string>
     <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
